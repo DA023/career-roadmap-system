@@ -34,7 +34,7 @@ CareerPath.ai is a full-stack, AI-driven application that ingests professional b
 ## Getting Started
 
 ### Prerequisites
-* [Node.js](https://nodejs.org/) (v18+ recommended)
+* [Node.js](https://nodejs.org/)
 * A [Google Gemini API Key](https://aistudio.google.com/app/apikey)
 
 ### Installation
