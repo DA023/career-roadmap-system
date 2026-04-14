@@ -57,20 +57,6 @@ The system uses **In-Memory Buffering** (`memoryStorage`) via Multer. Resumes ar
 - **Parsing**: `pdf-parse` & `multer`
 - **Frontend**: Tailwind CSS, Chart.js, & Vanilla JS
 
-## Future Improvements
-
-1. **Vectorized Market Alignment (RAG)**  
-   Implement Retrieval-Augmented Generation to connect the AI to live job boards (LinkedIn, Indeed). This would allow the roadmap to suggest skills based on actual real-time job openings rather than static training data.
-
-2. **Interactive Parameter "Steerability"**  
-   Add UI sliders to let users adjust the AI's logic. Users could choose between **"Conservative Growth"** (safe career moves) or **"Aggressive Pivot"** (high-risk, high-reward transitions), allowing the model to adjust its temperature and reasoning accordingly.
-
-3. **Automated Resume Refactoring**  
-   Beyond identifying gaps, the system could generate the exact bullet points or project descriptions a user should add to their resume once they complete a roadmap milestone.
-
-4. **Multi-Modal Analysis**  
-   Upgrade the ingestion layer to support Image-to-Text for certificates and Audio-to-Text for career objective voice memos, creating a more holistic user profile.
-
 ## Getting Started
 
 ### 1. Prerequisites
@@ -99,3 +85,16 @@ GEMINI_API_KEY=your_actual_api_key_here
 ```bash
 npm start
 ```
+## Future Improvements
+
+1. **Vectorized Market Alignment (RAG)**  
+   Implement Retrieval-Augmented Generation to connect the AI to live job boards (LinkedIn, Indeed). This would allow the roadmap to suggest skills based on actual real-time job openings rather than static training data.
+
+2. **Interactive Parameter "Steerability"**  
+   Add UI sliders to let users adjust the AI's logic. Users could choose between **"Conservative Growth"** (safe career moves) or **"Aggressive Pivot"** (high-risk, high-reward transitions), allowing the model to adjust its temperature and reasoning accordingly.
+
+3. **Automated Resume Refactoring**  
+   Beyond identifying gaps, the system could generate the exact bullet points or project descriptions a user should add to their resume once they complete a roadmap milestone.
+
+4. **Multi-Modal Analysis**  
+   Upgrade the ingestion layer to support Image-to-Text for certificates and Audio-to-Text for career objective voice memos, creating a more holistic user profile.
