@@ -8,7 +8,7 @@
 
 CareerPath.ai is a full-stack, AI-driven application that ingests professional backgrounds (via PDF resumes or manual input) and generates highly specific, actionable career roadmaps. By leveraging Google's Gemini API with strict structured data constraints, the system acts as a personalized career architect.
 
-## ✨ Key Architectural Features
+## Key Architectural Features
 
 * **Deterministic LLM Output:** Utilizes Gemini's `SchemaType` and `responseSchema` to enforce strict JSON outputs. This completely eliminates the need for flaky regex parsing of markdown strings and guarantees pipeline stability.
 * **Resilient Model Fallback System:** Implements an automated retry loop across multiple Gemini models (`2.5-flash`, `1.5-pro`, etc.). If the primary model hits an overloaded `503` state, the system automatically delays and falls back to the next available model.
@@ -17,7 +17,7 @@ CareerPath.ai is a full-stack, AI-driven application that ingests professional b
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Backend**
 * Node.js & Express.js (REST API architecture)
@@ -31,7 +31,7 @@ CareerPath.ai is a full-stack, AI-driven application that ingests professional b
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * [Node.js](https://nodejs.org/) (v18+ recommended)
