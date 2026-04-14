@@ -79,22 +79,22 @@ The system uses **In-Memory Buffering** (`memoryStorage`) via Multer. Resumes ar
 
 ### 2. Installation
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/your-username/career-roadmap-system.git
 ```
-### 2. Install dependencies
+2. Install dependencies
 ```bash
 npm install
 ```
-### 3. Setup Environment
+3. Setup Environment
 * Create a **.env** file in the root directory of your project.
 * Define your environment variables as shown below:
 ```env
 PORT=3000
 GEMINI_API_KEY=your_actual_api_key_here
 ```
-### 4. Run the Application
+4. Run the Application
 * Once the environment is configured, launch the server using the following command:
 ```bash
 npm start
