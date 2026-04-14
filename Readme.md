@@ -1,6 +1,6 @@
-# CareerPath.ai: Applied AI Career Architect
+# CareerPath: Career Architect
 
-CareerPath.ai is a **production-grade Applied AI system** that transforms unstructured professional data—resumes and career goals—into precise, actionable career roadmaps. By orchestrating Google’s Gemini LLM with strict grounding and deterministic data schemas, it provides a high-fidelity execution protocol for professional growth.
+CareerPath is a **production-grade Applied AI system** that transforms unstructured professional data—resumes and career goals—into precise, actionable career roadmaps. By orchestrating Google’s Gemini LLM with strict grounding and deterministic data schemas, it provides a high-fidelity execution protocol for professional growth.
 
 ## Project Overview
 
