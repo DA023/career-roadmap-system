@@ -1,12 +1,8 @@
-# Dependency directories
 node_modules/
 
-# Environment variables
 .env
 
-# OS generated files
 .DS_Store
 Thumbs.db
 
-# Optional: Ignore any temporary test PDFs you might have lying around
 *.pdf
